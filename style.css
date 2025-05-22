@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ED7688;
+}
+
+header {
+    background-color: #E75D70;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.barra-lateral {
+    background-color: #FF8CA0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 4px #ED7688;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    background-color: #E75D70;
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.sobre,.habilidades,.projetos {
+
+}
