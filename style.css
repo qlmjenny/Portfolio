@@ -43,6 +43,7 @@ nav ul {
 nav ul a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
     background-color: #E75D70;
     margin: 10px;
     width: 150px;
@@ -55,14 +56,49 @@ nav ul li {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
 .sobre,.habilidades,.projetos {
+    background-color: #F9A9B7;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
 
+#cabeca {
+    color: #E75D70;
+}
+
+.projeto {
+    background-color: #E75D70;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #FF8CA0;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #E75D70;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E75D70;
+    margin: 50px;
+}
+
+.div {
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+    background-color: aliceblue;
+}
+
+.p {
+    color: #E75D70;
+    font-weight: bold;
 }
