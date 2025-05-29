@@ -12,6 +12,7 @@ header {
 
 .container {
     display: flex;
+    margin: 50px;
 }
 
 .barra-lateral {
@@ -28,6 +29,11 @@ img {
     width: 200px;
     border-radius: 50%;
     border: solid 4px #ED7688;
+    transition: 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 nav ul {
@@ -38,6 +44,7 @@ nav ul {
     padding: 15px;
     border-radius: 15px;
     justify-content: center;
+    transition: 0.3s ease;
 }
 
 nav ul a {
@@ -51,12 +58,17 @@ nav ul a {
     padding: 5px 10px;
 }
 
+nav ul a:hover {
+    color: #f8aebb;
+    transform: scale(1.1);
+}
+
 nav ul li {
     display: flex;
     justify-content: center;
 }
 
-.sobre,.habilidades,.projetos {
+.sobre,.habilidades,.projetos, .curso {
     background-color: #F9A9B7;
     margin: 15px;
     padding: 10px;
@@ -77,28 +89,45 @@ nav ul li {
 
 .footer{
     background-color: #FF8CA0;
-    border-radius: 15px;
-    margin: 20px;
-    padding: 10px;
+    border-radius: 40px;
+    margin: 20px 200px;
+    padding: 5px;
     text-align: center;
-    color: #E75D70;
+    color: white;
 }
 
 .informacoes {
     display: flex;
-    justify-content: space-evenly;
-    background-color: #E75D70;
-    margin: 50px;
+    justify-content: center; 
+    gap: 40px; 
+    margin: 5px;
+}
+
+#inf {
+    color: #E75D70;
 }
 
 .div {
     color: white;
     font-weight: bold;
-    margin: 15px;
-    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px; 
+    text-align: center; 
+    box-sizing: border-box;
+}
+
+.fot {
+    transition: 0.3s ease;
+}
+
+.fot:hover {
+    transform: scale(1.1);
 }
 
 .p {
     color: #E75D70;
     font-weight: bold;
-}
+    margin-bottom: 10px;
+    font-weight: bold;
+} 
