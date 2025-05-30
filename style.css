@@ -2,11 +2,11 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ED7688;
+    background-color: #a31024;
 }
 
 header {
-    background-color: #E75D70;
+    background-color: #7F030D;
     padding: 10px;
 }
 
@@ -16,7 +16,7 @@ header {
 }
 
 .barra-lateral {
-    background-color: #FF8CA0;
+    background-color: #720e1b;
     margin: 10px;
     padding: 15px;
     border-radius: 15px;
@@ -28,7 +28,7 @@ img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: solid 4px #ED7688;
+    border: solid 4px #ba0c2b;
     transition: 0.3s ease;
 }
 
@@ -51,7 +51,7 @@ nav ul a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color: #E75D70;
+    background-color: #ba0c2b;
     margin: 10px;
     width: 150px;
     border-radius: 5px;
@@ -59,7 +59,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: #f8aebb;
+    color: #720e1b;
     transform: scale(1.1);
 }
 
@@ -69,7 +69,7 @@ nav ul li {
 }
 
 .sobre,.habilidades,.projetos, .curso {
-    background-color: #F9A9B7;
+    background-color: #720e1b;
     margin: 15px;
     padding: 10px;
     border-radius: 15px;
@@ -77,18 +77,18 @@ nav ul li {
 }
 
 #cabeca {
-    color: #E75D70;
+    color: #ba0c2b;
 }
 
 .projeto {
-    background-color: #E75D70;
+    background-color: #ba0c2b;
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
 }
 
 .footer{
-    background-color: #FF8CA0;
+    background-color: #ba0c2b;
     border-radius: 40px;
     margin: 20px 200px;
     padding: 5px;
@@ -104,7 +104,7 @@ nav ul li {
 }
 
 #inf {
-    color: #E75D70;
+    color: #7F030D;
 }
 
 .div {
@@ -126,7 +126,7 @@ nav ul li {
 }
 
 .p {
-    color: #E75D70;
+    color: #7F030D;
     font-weight: bold;
     margin-bottom: 10px;
     font-weight: bold;
