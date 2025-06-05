@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #7F030D;
+    background-color: #720e1b;
     padding: 10px;
 }
 
@@ -88,7 +88,7 @@ nav ul li {
 }
 
 .footer{
-    background-color: #ba0c2b;
+    background-color: #720e1b;
     border-radius: 40px;
     margin: 20px 200px;
     padding: 5px;
@@ -101,10 +101,11 @@ nav ul li {
     justify-content: center; 
     gap: 40px; 
     margin: 5px;
+    
 }
 
 #inf {
-    color: #7F030D;
+    color: #ba0c2b;
 }
 
 .div {
@@ -119,6 +120,7 @@ nav ul li {
 
 .fot {
     transition: 0.3s ease;
+
 }
 
 .fot:hover {
@@ -126,8 +128,14 @@ nav ul li {
 }
 
 .p {
-    color: #7F030D;
+    color: #ba0c2b;
     font-weight: bold;
     margin-bottom: 10px;
     font-weight: bold;
 } 
+
+.div a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
